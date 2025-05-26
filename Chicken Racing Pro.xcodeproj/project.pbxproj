@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FA1C20682DE4C00B00FFBC19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1C20522DE4C00900FFBC19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1C20592DE4C00900FFBC19;
+			remoteInfo = "Chicken Racing Pro";
+		};
+		FA1C20722DE4C00B00FFBC19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1C20522DE4C00900FFBC19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1C20592DE4C00900FFBC19;
+			remoteInfo = "Chicken Racing Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1C205A2DE4C00900FFBC19 /* Chicken Racing Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken Racing Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C20672DE4C00B00FFBC19 /* Chicken Racing ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken Racing ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C20712DE4C00B00FFBC19 /* Chicken Racing ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken Racing ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA1C205C2DE4C00900FFBC19 /* Chicken Racing Pro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chicken Racing Pro";
+			sourceTree = "<group>";
+		};
+		FA1C206A2DE4C00B00FFBC19 /* Chicken Racing ProTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chicken Racing ProTests";
+			sourceTree = "<group>";
+		};
+		FA1C20742DE4C00B00FFBC19 /* Chicken Racing ProUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chicken Racing ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1C20572DE4C00900FFBC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C20642DE4C00B00FFBC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C206E2DE4C00B00FFBC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1C20512DE4C00900FFBC19 = {
+			isa = PBXGroup;
+			children = (
+				FA1C205C2DE4C00900FFBC19 /* Chicken Racing Pro */,
+				FA1C206A2DE4C00B00FFBC19 /* Chicken Racing ProTests */,
+				FA1C20742DE4C00B00FFBC19 /* Chicken Racing ProUITests */,
+				FA1C205B2DE4C00900FFBC19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1C205B2DE4C00900FFBC19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C205A2DE4C00900FFBC19 /* Chicken Racing Pro.app */,
+				FA1C20672DE4C00B00FFBC19 /* Chicken Racing ProTests.xctest */,
+				FA1C20712DE4C00B00FFBC19 /* Chicken Racing ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1C20592DE4C00900FFBC19 /* Chicken Racing Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C207B2DE4C00B00FFBC19 /* Build configuration list for PBXNativeTarget "Chicken Racing Pro" */;
+			buildPhases = (
+				FA1C20562DE4C00900FFBC19 /* Sources */,
+				FA1C20572DE4C00900FFBC19 /* Frameworks */,
+				FA1C20582DE4C00900FFBC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA1C205C2DE4C00900FFBC19 /* Chicken Racing Pro */,
+			);
+			name = "Chicken Racing Pro";
+			packageProductDependencies = (
+			);
+			productName = "Chicken Racing Pro";
+			productReference = FA1C205A2DE4C00900FFBC19 /* Chicken Racing Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1C20662DE4C00B00FFBC19 /* Chicken Racing ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C207E2DE4C00B00FFBC19 /* Build configuration list for PBXNativeTarget "Chicken Racing ProTests" */;
+			buildPhases = (
+				FA1C20632DE4C00B00FFBC19 /* Sources */,
+				FA1C20642DE4C00B00FFBC19 /* Frameworks */,
+				FA1C20652DE4C00B00FFBC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1C20692DE4C00B00FFBC19 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA1C206A2DE4C00B00FFBC19 /* Chicken Racing ProTests */,
+			);
+			name = "Chicken Racing ProTests";
+			packageProductDependencies = (
+			);
+			productName = "Chicken Racing ProTests";
+			productReference = FA1C20672DE4C00B00FFBC19 /* Chicken Racing ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA1C20702DE4C00B00FFBC19 /* Chicken Racing ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C20812DE4C00B00FFBC19 /* Build configuration list for PBXNativeTarget "Chicken Racing ProUITests" */;
+			buildPhases = (
+				FA1C206D2DE4C00B00FFBC19 /* Sources */,
+				FA1C206E2DE4C00B00FFBC19 /* Frameworks */,
+				FA1C206F2DE4C00B00FFBC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1C20732DE4C00B00FFBC19 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA1C20742DE4C00B00FFBC19 /* Chicken Racing ProUITests */,
+			);
+			name = "Chicken Racing ProUITests";
+			packageProductDependencies = (
+			);
+			productName = "Chicken Racing ProUITests";
+			productReference = FA1C20712DE4C00B00FFBC19 /* Chicken Racing ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1C20522DE4C00900FFBC19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FA1C20592DE4C00900FFBC19 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FA1C20662DE4C00B00FFBC19 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FA1C20592DE4C00900FFBC19;
+					};
+					FA1C20702DE4C00B00FFBC19 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FA1C20592DE4C00900FFBC19;
+					};
+				};
+			};
+			buildConfigurationList = FA1C20552DE4C00900FFBC19 /* Build configuration list for PBXProject "Chicken Racing Pro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1C20512DE4C00900FFBC19;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA1C205B2DE4C00900FFBC19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1C20592DE4C00900FFBC19 /* Chicken Racing Pro */,
+				FA1C20662DE4C00B00FFBC19 /* Chicken Racing ProTests */,
+				FA1C20702DE4C00B00FFBC19 /* Chicken Racing ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1C20582DE4C00900FFBC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C20652DE4C00B00FFBC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C206F2DE4C00B00FFBC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1C20562DE4C00900FFBC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C20632DE4C00B00FFBC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C206D2DE4C00B00FFBC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1C20692DE4C00B00FFBC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1C20592DE4C00900FFBC19 /* Chicken Racing Pro */;
+			targetProxy = FA1C20682DE4C00B00FFBC19 /* PBXContainerItemProxy */;
+		};
+		FA1C20732DE4C00B00FFBC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1C20592DE4C00900FFBC19 /* Chicken Racing Pro */;
+			targetProxy = FA1C20722DE4C00B00FFBC19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA1C20792DE4C00B00FFBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1C207A2DE4C00B00FFBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1C207C2DE4C00B00FFBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickracing.pro.Chicken-Racing-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1C207D2DE4C00B00FFBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickracing.pro.Chicken-Racing-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA1C207F2DE4C00B00FFBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickracing.pro.Chicken-Racing-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken Racing Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chicken Racing Pro";
+			};
+			name = Debug;
+		};
+		FA1C20802DE4C00B00FFBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickracing.pro.Chicken-Racing-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken Racing Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chicken Racing Pro";
+			};
+			name = Release;
+		};
+		FA1C20822DE4C00B00FFBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickracing.pro.Chicken-Racing-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chicken Racing Pro";
+			};
+			name = Debug;
+		};
+		FA1C20832DE4C00B00FFBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chickracing.pro.Chicken-Racing-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chicken Racing Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1C20552DE4C00900FFBC19 /* Build configuration list for PBXProject "Chicken Racing Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C20792DE4C00B00FFBC19 /* Debug */,
+				FA1C207A2DE4C00B00FFBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C207B2DE4C00B00FFBC19 /* Build configuration list for PBXNativeTarget "Chicken Racing Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C207C2DE4C00B00FFBC19 /* Debug */,
+				FA1C207D2DE4C00B00FFBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C207E2DE4C00B00FFBC19 /* Build configuration list for PBXNativeTarget "Chicken Racing ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C207F2DE4C00B00FFBC19 /* Debug */,
+				FA1C20802DE4C00B00FFBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C20812DE4C00B00FFBC19 /* Build configuration list for PBXNativeTarget "Chicken Racing ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C20822DE4C00B00FFBC19 /* Debug */,
+				FA1C20832DE4C00B00FFBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1C20522DE4C00900FFBC19 /* Project object */;
+}
